@@ -1,0 +1,35 @@
+/* ----------MAIN--------------- */
+
+.background-block {
+    width: 85%;
+    height: 80%;
+    position: absolute;
+    background-color: var(--background-block);
+    top: 0;
+    right: 0;
+    z-index: -2;
+}
+
+.background-block img {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: auto;
+    height: 70%;
+    z-index: -1;
+}
+
+.background-block h2 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-10%, -50%);
+    font-family: 'Zona Pro Bold';
+    text-transform: uppercase;
+    color: var(--text-main);
+    font-size: 3rem;
+
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    flex-shrink: 0;
+}

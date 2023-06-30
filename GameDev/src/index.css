@@ -1,0 +1,23 @@
+@import '/fonts/fonts.css';
+
+:root {
+  font-family: 'Akrobat';
+  --main: #FFFFFF;
+  --text-main: #000000;
+  --text-accent: #FFFFFF;
+  --accent-main: #CE0002;
+  --accent-hover: #FE0002;
+  --accent-active: #A60002;
+  --background-block: #FFEE2F;
+  --social-main: #C3B6B6;
+  --social-hover: #DCD3D3;
+  --social-active: #A79898;
+  --footer-bg: #EFEFEF;
+  --footer-text: #7E7E7E;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
