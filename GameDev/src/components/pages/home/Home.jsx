@@ -9,7 +9,7 @@ function Home() {
     const sloganId = Math.round(Math.random() * (slogans.length - 1))
     return (
         <>
-            <div className="background-block">
+            <div className="background-block main">
                 <img src="src/assets/img/unicorn.png" alt="unicorn" />
             </div>
             <div className='slogan'>

@@ -21,3 +21,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.company {
+  list-style-type: none;
+  text-align: end;
+  width: 155px;
+  /* border: 1px solid violet; */
+}
+
+.company li {
+  margin-top: 15px;
+}
+
+.company li a {
+  text-decoration: none;
+  /* border: 1px solid black; */
+}
+
+.company li::after {
+  margin-left: 5px;
+  display: inline-block;
+  content: ' ';
+  width: 17px;
+  height: 17px;
+}
+
+.company li:first-of-type::after {
+  background-color: var(--accent-main);
+}
+
+.company li:last-of-type::after {
+  background-color: var(--text-main);
+}

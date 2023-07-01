@@ -3,7 +3,8 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from './components/header/Header.jsx'
 import Footer from './components/footer/Footer.jsx'
 import Home from './components/pages/home/Home.jsx'
-import Company from './components/pages/company/Company.jsx'
+import About from './components/pages/company/About.jsx'
+import Command from './components/pages/company/Command.jsx'
 import Games from './components/pages/games/Games.jsx'
 import Career from './components/pages/career/Career.jsx'
 import News from './components/pages/news/News.jsx'
@@ -20,7 +21,8 @@ function App() {
         <Routes>
           <Route errorElement={<ErrorPage />} >
             <Route path='/' element={<Home />} />
-            <Route path='/company' element={<Company />} />
+            <Route path='/company/about' element={<About />} />
+            <Route path='/company/command' element={<Command />} />
             <Route path='/games' element={<Games />} />
             <Route path='/career' element={<Career />} />
             <Route path='/news' element={<News />} />

@@ -7,7 +7,7 @@ function Footer() {
             <div className="footer__copyright">© Toy.Stream, Inc.</div>
             <nav className="footer__navigation">
                 <li><a href="/">Главная страница</a></li>
-                <li><a href="/company">Компания</a></li>
+                <li><a href="/company/about">Компания</a></li>
                 <li><a href="/games">Игры</a></li>
                 <li><a href="/career">Карьера</a></li>
                 <li><a href="/news">Новости</a></li>

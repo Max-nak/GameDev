@@ -1,0 +1,6 @@
+
+.background-block {
+    position: absolute;
+    background-color: var(--background-block);
+    z-index: -2;
+}
