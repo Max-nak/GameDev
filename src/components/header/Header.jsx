@@ -106,12 +106,12 @@ function Header() {
                 </a>
             </div>
             <nav className="navigation">
-                <li><a href="/">Главная страница</a></li>
-                <li><a href="/company/about">Компания</a></li>
-                <li><a href="/games">Игры</a></li>
-                <li><a href="/career">Карьера</a></li>
-                <li><a href="/news">Новости</a></li>
-                <li><a href="/contacts">Контакты</a></li>
+                <li><a href="/GameDev/">Главная страница</a></li>
+                <li><a href="/GameDev/company/about">Компания</a></li>
+                <li><a href="/GameDev/games">Игры</a></li>
+                <li><a href="/GameDev/career">Карьера</a></li>
+                <li><a href="/GameDev/news">Новости</a></li>
+                <li><a href="/GameDev/contacts">Контакты</a></li>
             </nav>
             <div className="lang">Eng</div>
         </div>

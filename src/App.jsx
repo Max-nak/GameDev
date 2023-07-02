@@ -20,13 +20,13 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route errorElement={<ErrorPage />} >
-            <Route path='/' element={<Home />} />
-            <Route path='/company/about' element={<About />} />
-            <Route path='/company/command' element={<Command />} />
-            <Route path='/games' element={<Games />} />
-            <Route path='/career' element={<Career />} />
-            <Route path='/news' element={<News />} />
-            <Route path='/contacts' element={<Contacts />} />
+            <Route path='/GameDev/' element={<Home />} />
+            <Route path='/GameDev/company/about' element={<About />} />
+            <Route path='/GameDev/company/command' element={<Command />} />
+            <Route path='/GameDev/games' element={<Games />} />
+            <Route path='/GameDev/career' element={<Career />} />
+            <Route path='/GameDev/news' element={<News />} />
+            <Route path='/GameDev/contacts' element={<Contacts />} />
           </Route>
         </Routes>
       </BrowserRouter>
